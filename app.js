@@ -25,13 +25,13 @@ function actualizarColor(rojo, verde, azul) {
 
 // Agrega un event listener para el input de Rojo.
 inputRojo.addEventListener('change', (e) => {
-    valorRojo = e.target.value;
+    rojo = e.target.value;
     actualizarColor(rojo,verde,azul);
 });
 
 // Agrega un event listener para el input de Verde.
 inputVerde.addEventListener('change', (e) => {
-  textoVerde.textContent = verde;
+  verde = e.target.value;
   actualizarColor(rojo,verde,azul);
 });
 
